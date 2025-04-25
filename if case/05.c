@@ -23,7 +23,7 @@ int main() {
         {
             printf(" Phuong trinh co nghiem kep:");
             x1=x2=(-b)/2*a;
-            printf("x1=x2=%2f",x1,x2);
+            printf("x1=x2=%.2f",x1,x2);
 
         }
     else
