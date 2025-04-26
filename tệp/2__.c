@@ -37,7 +37,7 @@ int main (){
 				c[i][j]=0;
 
 			for(int k=0;k<socota;k++){
-				c[i][j]=a[i][j] * b[i][j];
+				c[i][j]=a[i][k] * b[k][j];
 			}
 		}
 	}
